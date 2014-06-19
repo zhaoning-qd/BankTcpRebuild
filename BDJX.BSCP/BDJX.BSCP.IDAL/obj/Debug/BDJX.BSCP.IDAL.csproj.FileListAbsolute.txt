@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.pdb

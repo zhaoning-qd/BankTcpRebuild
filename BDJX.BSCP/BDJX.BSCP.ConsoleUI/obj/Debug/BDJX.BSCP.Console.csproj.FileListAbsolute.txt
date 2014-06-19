@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLE.exe.config
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLE.exe
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLE.pdb
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.CONSOLE.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.CONSOLE.exe
+d:\documents\visual studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.CONSOLE.pdb

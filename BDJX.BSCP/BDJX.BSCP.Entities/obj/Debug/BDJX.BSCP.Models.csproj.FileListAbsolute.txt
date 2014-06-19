@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb

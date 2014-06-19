@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb

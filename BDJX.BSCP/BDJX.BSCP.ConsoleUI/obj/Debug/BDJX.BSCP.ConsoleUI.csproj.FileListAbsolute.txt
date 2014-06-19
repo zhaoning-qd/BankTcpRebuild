@@ -1,0 +1,48 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLEUI.exe.config
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLEUI.exe
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.CONSOLEUI.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.Common.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\BDJX.BSCP.IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.CONSOLEUI.exe
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\obj\Debug\BDJX.BSCP.CONSOLEUI.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.CONSOLE\bin\Debug\ManagedOpenSsl.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe.config
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\ManagedOpenSsl.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.exe
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe.config
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.exe
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\ManagedOpenSsl.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\log4net.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe.config
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.exe
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\ManagedOpenSsl.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\log4net.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache

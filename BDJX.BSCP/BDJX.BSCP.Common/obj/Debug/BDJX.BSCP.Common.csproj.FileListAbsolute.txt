@@ -1,0 +1,14 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.csprojResolveAssemblyReference.cache
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.csprojResolveAssemblyReference.cache
+F:\aa\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.pdb

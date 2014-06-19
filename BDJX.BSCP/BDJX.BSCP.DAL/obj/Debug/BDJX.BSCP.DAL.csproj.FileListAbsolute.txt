@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.pdb

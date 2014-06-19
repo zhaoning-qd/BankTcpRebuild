@@ -1,0 +1,14 @@
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.pdb
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.csprojResolveAssemblyReference.cache
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.dll
+F:\新建文件夹 (3)\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.pdb
+F:\aa\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.csprojResolveAssemblyReference.cache
+F:\aa\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.dll
+F:\aa\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.pdb
