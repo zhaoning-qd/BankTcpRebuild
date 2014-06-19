@@ -19,3 +19,10 @@ F:\aa\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.IBLL.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.csprojResolveAssemblyReference.cache
 F:\aa\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.BLL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.BLL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.IBLL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.IBLL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.csprojResolveAssemblyReference.cache
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.pdb

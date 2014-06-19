@@ -46,3 +46,15 @@ F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\log4net.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe.config
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.exe
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.CONSOLEUI.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.exe
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.CONSOLEUI.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\ManagedOpenSsl.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\log4net.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.Common.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\bin\Debug\BDJX.BSCP.IBLL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.ConsoleUI\obj\Debug\BDJX.BSCP.ConsoleUI.csprojResolveAssemblyReference.cache

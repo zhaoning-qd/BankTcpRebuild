@@ -60,10 +60,19 @@
       <Name>BDJX.BSCP.IBLL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLLComponents.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-copy $(SolutionDir)BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.BLL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug</PostBuildEvent>
+copy $(SolutionDir)BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.BLL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

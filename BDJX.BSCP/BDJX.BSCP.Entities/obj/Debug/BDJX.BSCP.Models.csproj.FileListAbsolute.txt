@@ -10,3 +10,8 @@ F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Models.csprojResolveAssemblyReference.cache

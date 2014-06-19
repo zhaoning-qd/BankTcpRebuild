@@ -10,3 +10,7 @@ F:\aa\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb

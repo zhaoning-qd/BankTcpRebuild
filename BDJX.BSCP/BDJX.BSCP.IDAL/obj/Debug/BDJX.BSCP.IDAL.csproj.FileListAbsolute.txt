@@ -10,3 +10,8 @@ F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.pdb
 F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.dll
 F:\aa\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.csprojResolveAssemblyReference.cache
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IDAL\obj\Debug\BDJX.BSCP.IDAL.pdb
