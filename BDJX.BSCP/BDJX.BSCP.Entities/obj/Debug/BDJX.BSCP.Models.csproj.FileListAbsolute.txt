@@ -15,3 +15,8 @@ E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Models.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Models.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Entities\obj\Debug\BDJX.BSCP.Entities.pdb

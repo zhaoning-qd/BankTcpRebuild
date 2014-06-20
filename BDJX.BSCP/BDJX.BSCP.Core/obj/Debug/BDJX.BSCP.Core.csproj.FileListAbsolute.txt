@@ -14,3 +14,14 @@ E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Common.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\ManagedOpenSsl.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\log4net.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Entities.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Core\obj\Debug\BDJX.BSCP.Core.pdb

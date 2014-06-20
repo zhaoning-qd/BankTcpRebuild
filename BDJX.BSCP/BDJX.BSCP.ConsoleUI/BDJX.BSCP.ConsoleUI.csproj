@@ -55,6 +55,10 @@
       <Project>{7b9e1715-a8ae-4b07-9490-39830a257078}</Project>
       <Name>BDJX.BSCP.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BDJX.BSCP.Core\BDJX.BSCP.Core.csproj">
+      <Project>{522841ad-015d-40bd-b562-d9c30e0355d3}</Project>
+      <Name>BDJX.BSCP.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BDJX.BSCP.IBLL\BDJX.BSCP.IBLL.csproj">
       <Project>{89faeb78-410a-48ea-8783-1ccb0a52e042}</Project>
       <Name>BDJX.BSCP.IBLL</Name>

@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,6 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TcpServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BDJX.BSCP.Common\BDJX.BSCP.Common.csproj">
+      <Project>{7b9e1715-a8ae-4b07-9490-39830a257078}</Project>
+      <Name>BDJX.BSCP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BDJX.BSCP.Entities\BDJX.BSCP.Models.csproj">
+      <Project>{2a022ecd-d1ad-4417-9456-d1bebc6d952e}</Project>
+      <Name>BDJX.BSCP.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

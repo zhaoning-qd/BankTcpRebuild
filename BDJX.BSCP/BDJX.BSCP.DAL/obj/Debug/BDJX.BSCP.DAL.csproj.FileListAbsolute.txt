@@ -14,3 +14,8 @@ E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.pdb
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.csprojResolveAssemblyReference.cache

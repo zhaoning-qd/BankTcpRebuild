@@ -17,3 +17,7 @@ E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.pdb
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.csprojResolveAssemblyReference.cache
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.dll
 E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.IBLL\obj\Debug\BDJX.BSCP.IBLL.pdb

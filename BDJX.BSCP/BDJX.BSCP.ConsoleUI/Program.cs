@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
-using BDJX.BSCP.IBLL;
+using BDJX.BSCP.Core;
 using BDJX.BSCP.Common;
 
 
@@ -13,8 +14,11 @@ namespace BDJX.BSCP.ConsoleUI
     {
         static void Main(string[] args)
         {
-            ITest iTest = BdjxFactory.CreateInstance<ITest>("BDJX.BSCP.BLL.dll", "BDJX.BSCP.BLL.Test");
-            Console.WriteLine(iTest.SayHello());
+            Console.WriteLine("\t\t------------银行模拟程序------------");
+            //银行作为服务端，监听公积金中心的请求;
+            TcpServer bankServer = new TcpServer();
+            Thread t = new Thread(bankServer.StartTcpListening);
+            t.Start();
         }
     }
 }
