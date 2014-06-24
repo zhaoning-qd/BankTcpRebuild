@@ -31,7 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IBM.Data.DB2, Version=9.0.0.2, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\myRepository\BankSimulationConsole\BankSimulationConsole\BankSimulationConsole\bin\Debug\IBM.Data.DB2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,7 +45,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db2Operation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BDJX.BSCP.Common\BDJX.BSCP.Common.csproj">
+      <Project>{7b9e1715-a8ae-4b07-9490-39830a257078}</Project>
+      <Name>BDJX.BSCP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BDJX.BSCP.Entities\BDJX.BSCP.Models.csproj">
+      <Project>{2a022ecd-d1ad-4417-9456-d1bebc6d952e}</Project>
+      <Name>BDJX.BSCP.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BDJX.BSCP.IDAL\BDJX.BSCP.IDAL.csproj">
+      <Project>{de8d9dcb-f8a9-46fe-95d6-b7b4e55ebe71}</Project>
+      <Name>BDJX.BSCP.IDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBllManagment.cs" />
+    <Compile Include="IZqBenHangShiShiZhiFu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BDJX.BSCP.Entities\BDJX.BSCP.Models.csproj">
+      <Project>{2a022ecd-d1ad-4417-9456-d1bebc6d952e}</Project>
+      <Name>BDJX.BSCP.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

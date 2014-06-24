@@ -53,6 +53,10 @@
       <Project>{2a022ecd-d1ad-4417-9456-d1bebc6d952e}</Project>
       <Name>BDJX.BSCP.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BDJX.BSCP.IBLL\BDJX.BSCP.IBLL.csproj">
+      <Project>{89faeb78-410a-48ea-8783-1ccb0a52e042}</Project>
+      <Name>BDJX.BSCP.IBLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

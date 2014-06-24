@@ -11,6 +11,7 @@ using System.Threading;
 using BDJX.BSCP.Entities.BllModels;
 using BDJX.BSCP.Entities.TcpModels;
 using BDJX.BSCP.Common;
+using BDJX.BSCP.IBLL;
 
 namespace BDJX.BSCP.Core
 {
@@ -171,23 +172,12 @@ namespace BDJX.BSCP.Core
         private void HandleRequest(TcpUserManager user, byte[] recvBytes, BllEntryPoint bllEntryPoint)
         {
             //获取交易码，根据交易码调用具体的业务对象;
-            bllEntryPoint.Jym = Encoding.Default.GetString(recvBytes).Substring(0, 4);
-            byte[] returnBytes;
+            bllEntryPoint.Jym = Encoding.Default.GetString(recvBytes).Substring(0, 4);           
+            string className = BasicOperation.GetClassNameFromXML(bllEntryPoint.Jym);
+            IBllManagment bllManagment = BdjxFactory.CreateInstance<IBllManagment>("BDJX.BSCP.BLL.dll",className);
+            bllManagment.DisposeOfBusiness(recvBytes,bllEntryPoint);
+            SendMsgToClient(user, bllManagment.ResponseMsg);
 
-            
-
-            if (bllEntryPoint.Jym == "2000" || bllEntryPoint.Jym == "2006")
-            {
-                //MsgFirstBusinessSuper m = BusinessFactory.CreateInstance<MsgFirstBusinessSuper>(assemblyName, namespaceName, className);
-                //SendToGjj(user, m.GenerateResponseRealTimeMsg(recvBytes));
-                //m.HandleBusiness(recvBytes, whichBank);
-            }
-            else
-            {
-                //GjjBusinessSuper g = BusinessFactory.CreateInstance<GjjBusinessSuper>(assemblyName, namespaceName, className);
-                //returnBytes = g.HandleBusiness(recvBytes, whichBank);
-                //SendToGjj(user, returnBytes);
-            }
         }
     }
 }

@@ -76,7 +76,8 @@ copy $(SolutionDir)BDJX.BSCP.Core\bin\Debug\BDJX.BSCP.Core.dll $(SolutionDir)BDJ
 copy $(SolutionDir)BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.DAL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
 copy $(SolutionDir)BDJX.BSCP.Entities\bin\Debug\BDJX.BSCP.Entities.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
 copy $(SolutionDir)BDJX.BSCP.IBLL\bin\Debug\BDJX.BSCP.IBLL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
-copy $(SolutionDir)BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug</PostBuildEvent>
+copy $(SolutionDir)BDJX.BSCP.IDAL\bin\Debug\BDJX.BSCP.IDAL.dll $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug
+copy $(SolutionDir)BDJX.BSCP.ConsoleUI\BLLComponents.xml $(SolutionDir)BDJX.BSCP.ConsoleUI\bin\Debug</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

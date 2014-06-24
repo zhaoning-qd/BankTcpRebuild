@@ -33,3 +33,9 @@ D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.I
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.dll
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\obj\Debug\BDJX.BSCP.BLL.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.Common.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\ManagedOpenSsl.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\log4net.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.Entities.dll
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.BLL\bin\Debug\BDJX.BSCP.Entities.pdb
