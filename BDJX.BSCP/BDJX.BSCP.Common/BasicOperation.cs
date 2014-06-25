@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Xml;
@@ -124,6 +125,16 @@ namespace BDJX.BSCP.Common
             {
                 return strDate + i.ToString();
             }
+        }
+
+        /// <summary>
+        /// 获取方法的执行权限
+        /// </summary>
+        /// <returns></returns>
+        public static bool GetExecutePermission()
+        {
+            string s = ConfigurationManager.AppSettings["execPermission"];
+            return (s == "execute");
         }
     }
 }

@@ -21,3 +21,4 @@ D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSC
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Common\bin\Debug\BDJX.BSCP.Common.pdb
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.dll
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.pdb
+D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.Common\obj\Debug\BDJX.BSCP.Common.csprojResolveAssemblyReference.cache

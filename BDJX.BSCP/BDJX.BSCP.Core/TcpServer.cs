@@ -171,12 +171,19 @@ namespace BDJX.BSCP.Core
         /// <returns></returns>
         private void HandleRequest(TcpUserManager user, byte[] recvBytes, BllEntryPoint bllEntryPoint)
         {
-            //获取交易码，根据交易码调用具体的业务对象;
-            bllEntryPoint.Jym = Encoding.Default.GetString(recvBytes).Substring(0, 4);           
-            string className = BasicOperation.GetClassNameFromXML(bllEntryPoint.Jym);
-            IBllManagment bllManagment = BdjxFactory.CreateInstance<IBllManagment>("BDJX.BSCP.BLL.dll",className);
-            bllManagment.DisposeOfBusiness(recvBytes,bllEntryPoint);
-            SendMsgToClient(user, bllManagment.ResponseMsg);
+            try
+            {
+                //获取交易码，根据交易码调用具体的业务对象;
+                bllEntryPoint.Jym = Encoding.Default.GetString(recvBytes).Substring(0, 4);
+                string className = BasicOperation.GetClassNameFromXML(bllEntryPoint.Jym);
+                IBllManagment bllManagment = BdjxFactory.CreateInstance<IBllManagment>("BDJX.BSCP.BLL.dll", className);
+                bllManagment.DisposeOfBusiness(recvBytes, bllEntryPoint);
+                SendMsgToClient(user, bllManagment.ResponseMsg);
+            }
+            catch
+            {
+                throw;
+            }
 
         }
     }
