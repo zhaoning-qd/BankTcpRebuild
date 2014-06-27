@@ -8,7 +8,7 @@ using BDJX.BSCP.Common;
 namespace BDJX.BSCP.Entities.BllModels
 {
     /// <summary>
-    /// 支取--本行实时支付实体
+    /// 支取--本行实时支付请求报文实体
     /// </summary>
     public class ZqBhsszfModel
     {

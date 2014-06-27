@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaiKuangDanBiKouKuang.cs" />
+    <Compile Include="KaYuEChaXun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YinHangJiZhangRiZhongDuiZhang.cs" />
     <Compile Include="ZqBenHangShiShiZhiFu.cs" />
+    <Compile Include="ZqKuaHangShiShiZhiFu.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BDJX.BSCP.Common\BDJX.BSCP.Common.csproj">

@@ -12,7 +12,7 @@ namespace BDJX.BSCP.Entities.BllModels
         /// <summary>
         /// 数据包长度
         /// </summary>
-        public byte[] length{get;set;}
+        public byte[] Length{get;set;}
         
         /// <summary>
         /// 交易码
@@ -79,7 +79,7 @@ namespace BDJX.BSCP.Entities.BllModels
         /// </summary>
         public ZqBhsszfMsgModel()
         {
-            BasicOperation.InitializeByteArray(length,4);
+            BasicOperation.InitializeByteArray(Length,4);
             BasicOperation.InitializeByteArray(Jym,4);
             BasicOperation.InitializeByteArray(ReturnCode,4);
             BasicOperation.InitializeByteArray(Pch,20);
@@ -100,7 +100,7 @@ namespace BDJX.BSCP.Entities.BllModels
         /// <param name="model">请求报文信息实体</param>
         public void SetValue(ZqBhsszfModel model)
         {
-            BasicOperation.SetByteArray(this.length, "0420");
+            BasicOperation.SetByteArray(this.Length, "0420");
             BasicOperation.SetByteArray(this.Jym, model.Jym);
             BasicOperation.SetByteArray(this.ReturnCode, "0000");
             BasicOperation.SetByteArray(this.Pch, model.Pch);
@@ -126,7 +126,7 @@ namespace BDJX.BSCP.Entities.BllModels
         public string ToMsgString()
         {
             string result = string.Empty;
-            result += Encoding.Default.GetString(this.length);
+            result += Encoding.Default.GetString(this.Length);
             result += Encoding.Default.GetString(this.Jym);
             result += Encoding.Default.GetString(this.ReturnCode);
             result += Encoding.Default.GetString(this.Pch);

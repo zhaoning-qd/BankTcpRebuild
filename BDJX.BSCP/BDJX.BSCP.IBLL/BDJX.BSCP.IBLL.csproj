@@ -41,7 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBllManagment.cs" />
+    <Compile Include="IDaiKuangDanBiKouKuang.cs" />
+    <Compile Include="IKaYuEChaXun.cs" />
+    <Compile Include="IYinHangJiZhangRiZhongDuiZhang.cs" />
     <Compile Include="IZqBenHangShiShiZhiFu.cs" />
+    <Compile Include="IZqKuaHangShiShiZhiFu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

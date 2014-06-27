@@ -106,7 +106,7 @@ namespace BDJX.BSCP.BLL
                 int iBs = db2Operation.GetCountByZh(zbmxz);
                 zbmxz.Bc = (iBs + 1).ToString();
                 zbmxz.Fse = model.Je;
-                zbmxz.Yhls = model.Yhls;
+                zbmxz.Yhls = Encoding.Default.GetString(bhsszfMsg.Yhls);
                 zbmxz.Pjhm = model.Pch;
                 zbmxz.Jdbz = "2";
                 zbmxz.Ywlx = "1";

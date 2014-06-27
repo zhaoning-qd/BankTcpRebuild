@@ -136,5 +136,49 @@ namespace BDJX.BSCP.Common
             string s = ConfigurationManager.AppSettings["execPermission"];
             return (s == "execute");
         }
+
+        /// <summary>
+        /// 获取文件来源或保存路径
+        /// </summary>
+        /// <param name="whichBank"></param>
+        /// <returns></returns>
+        public static string GetFilePath(string whichBank)
+        {
+            string fileFromPath = "";
+            switch (whichBank)
+            {
+                case "01":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_01"];
+                    break;
+                case "02":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_02"];
+                    break;
+                case "03":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_03"];
+                    break;
+                case "04":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_04"];
+                    break;
+                case "05":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_05"];
+                    break;
+                case "11":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_11"];
+                    break;
+                case "19":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_19"];
+                    break;
+                case "31":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_31"];
+                    break;
+                case "32":
+                    fileFromPath = ConfigurationManager.AppSettings["gjjFilePath_32"];
+                    break;
+                default:
+                    break;
+            }
+
+            return fileFromPath;
+        }
     }
 }

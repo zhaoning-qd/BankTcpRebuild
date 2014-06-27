@@ -41,10 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BllModels\BllEntryPoint.cs" />
+    <Compile Include="BllModels\DkdbkkModel.cs" />
+    <Compile Include="BllModels\DkdbkkMsgModel.cs" />
+    <Compile Include="BllModels\KyecxModel.cs" />
+    <Compile Include="BllModels\KyecxMsgModel.cs" />
+    <Compile Include="BllModels\YhjzrzdzModel.cs" />
+    <Compile Include="BllModels\YhjzrzdzMsgModel.cs" />
     <Compile Include="BllModels\ZbfhzModel.cs" />
     <Compile Include="BllModels\ZbmxzModel.cs" />
     <Compile Include="BllModels\ZqBhsszfModel.cs" />
     <Compile Include="BllModels\ZqBhsszfMsgModel.cs" />
+    <Compile Include="BllModels\ZqKhsszfModel.cs" />
+    <Compile Include="BllModels\ZqKhsszfMsgModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TcpModels\TcpEndPoint.cs" />
     <Compile Include="TcpModels\TcpRunningTimeInfo.cs" />
