@@ -43,6 +43,8 @@
     <Compile Include="BllModels\BllEntryPoint.cs" />
     <Compile Include="BllModels\DkdbkkModel.cs" />
     <Compile Include="BllModels\DkdbkkMsgModel.cs" />
+    <Compile Include="BllModels\DkffModel.cs" />
+    <Compile Include="BllModels\DkffMsgModel.cs" />
     <Compile Include="BllModels\KyecxModel.cs" />
     <Compile Include="BllModels\KyecxMsgModel.cs" />
     <Compile Include="BllModels\SkzhjyModel.cs" />
