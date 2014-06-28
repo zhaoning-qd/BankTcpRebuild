@@ -11,7 +11,7 @@ using BDJX.BSCP.IDAL;
 namespace BDJX.BSCP.BLL
 {
     /// <summary>
-    /// 卡余额查询业务处理类
+    /// 卡余额查询 业务处理类
     /// </summary>
     public class KaYuEChaXun : IKaYuEChaXun
     {
