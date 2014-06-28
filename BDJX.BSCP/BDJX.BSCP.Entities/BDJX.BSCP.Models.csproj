@@ -45,6 +45,8 @@
     <Compile Include="BllModels\DkdbkkMsgModel.cs" />
     <Compile Include="BllModels\KyecxModel.cs" />
     <Compile Include="BllModels\KyecxMsgModel.cs" />
+    <Compile Include="BllModels\SkzhjyModel.cs" />
+    <Compile Include="BllModels\SkzhjyMsgModel.cs" />
     <Compile Include="BllModels\YhjzrzdzModel.cs" />
     <Compile Include="BllModels\YhjzrzdzMsgModel.cs" />
     <Compile Include="BllModels\ZbfhzModel.cs" />

@@ -28,3 +28,12 @@ D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.C
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.Entities.pdb
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.IDAL.pdb
 D:\Documents\GitHub\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.csprojResolveAssemblyReference.cache
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.Common.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.Entities.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.IDAL.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\ManagedOpenSsl.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\log4net.dll
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.Common.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.Entities.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\bin\Debug\BDJX.BSCP.IDAL.pdb
+E:\Git\BankTcpRebuild\BDJX.BSCP\BDJX.BSCP.DAL\obj\Debug\BDJX.BSCP.DAL.csprojResolveAssemblyReference.cache

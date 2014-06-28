@@ -43,6 +43,7 @@
     <Compile Include="IBllManagment.cs" />
     <Compile Include="IDaiKuangDanBiKouKuang.cs" />
     <Compile Include="IKaYuEChaXun.cs" />
+    <Compile Include="IShouKuangZhangHuJianYan.cs" />
     <Compile Include="IYinHangJiZhangRiZhongDuiZhang.cs" />
     <Compile Include="IZqBenHangShiShiZhiFu.cs" />
     <Compile Include="IZqKuaHangShiShiZhiFu.cs" />
