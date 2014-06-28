@@ -61,6 +61,7 @@ namespace BDJX.BSCP.BLL
         {
             try
             {
+                YinHangZhiFu();
                 GenerageResponseMsg(recvBytes);
                 LogHelper.WriteLogInfo("贷款发放", "成功完成业务操作");
             }
@@ -83,6 +84,14 @@ namespace BDJX.BSCP.BLL
             //产生响应报文
             modelMsg.SetValue(model);
             this.ResponseMsg = Encoding.Default.GetBytes(modelMsg.ToMsgString());
+        }
+
+        /// <summary>
+        /// 模拟银行支付操作
+        /// </summary>
+        private void YinHangZhiFu()
+        {
+            //银行在业务逻辑上的操作，本程序中不实现
         }
 
     }

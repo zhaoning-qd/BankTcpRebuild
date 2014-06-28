@@ -108,7 +108,11 @@ namespace BDJX.BSCP.Entities.BllModels
             BasicOperation.SetByteArray(this.Fhz, "0000");
             BasicOperation.SetByteArray(this.Fhxx, "success");
             BasicOperation.SetByteArray(this.Pch, model.Pch);
-            BasicOperation.SetByteArray(this.Yhls, "success");
+
+            //银行流水
+            Random radom = new Random();
+            BasicOperation.SetByteArray(this.Yhls, BasicOperation.GenerateLongBankSerialNum(radom.Next(99)));
+
             BasicOperation.SetByteArray(this.Fkrzh, model.Fkrzh);
             BasicOperation.SetByteArray(this.Fkrmc, model.Fkrmc);
             BasicOperation.SetByteArray(this.Fkyhmc, "中国银行山东路支行");
