@@ -32,6 +32,9 @@ namespace BDJX.BSCP.Entities.BllModels
         /// </summary>
         public byte[] Pch { get; set; }
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
         public DkplshfqMsgModel()
         {
             BasicOperation.InitializeByteArray(this.Length, 4);

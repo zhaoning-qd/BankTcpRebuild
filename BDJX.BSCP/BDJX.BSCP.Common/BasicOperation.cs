@@ -180,5 +180,37 @@ namespace BDJX.BSCP.Common
 
             return fileFromPath;
         }
+
+        /// <summary>
+        /// 模拟产生批次号
+        /// </summary>
+        /// <param name="codeHead"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static string GenerateBatchCode(string codeHead, int i)
+        {
+            if (i < 10)
+            {
+                return codeHead + "0" + i.ToString();
+            }
+            else
+            {
+                return codeHead + i.ToString();
+            }
+
+        }
+
+        /// <summary>
+        /// 模拟产生姓名
+        /// </summary>
+        /// <param name="nameHead"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        public static string GenerateName(string nameHead, int i)
+        {
+            string[] nameDetail = {"一","二","三","四","五","六","七","八","九","十","十一","十二","十三","十四",
+                                      "十五","十六","十七","十八","十九","二十" };
+            return nameHead + nameDetail[i];
+        }
     }
 }

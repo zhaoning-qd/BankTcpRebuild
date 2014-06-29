@@ -41,11 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBllManagment.cs" />
+    <Compile Include="IDaikuanDuizhangXinxiFafang.cs" />
     <Compile Include="IDaiKuangDanBiKouKuang.cs" />
     <Compile Include="IDaiKuangFaFang.cs" />
     <Compile Include="IDaiKuanPiLiangShouHuiFaQi.cs" />
+    <Compile Include="IDingshiPiliangzhifu.cs" />
     <Compile Include="IKaYuEChaXun.cs" />
     <Compile Include="IShouKuangZhangHuJianYan.cs" />
+    <Compile Include="IWtDaikuanjiesuanRizhongduizhang.cs" />
+    <Compile Include="IWtWangyinzhuangzhangDuizhang.cs" />
+    <Compile Include="IWtZhikouRizhongduizhang.cs" />
+    <Compile Include="IWtzqShishijiaoyiRizhongduizhang.cs" />
+    <Compile Include="IXiaoezhifuDaikoufaqi.cs" />
     <Compile Include="IYinHangJiZhangRiZhongDuiZhang.cs" />
     <Compile Include="IZqBenHangShiShiZhiFu.cs" />
     <Compile Include="IZqKuaHangShiShiZhiFu.cs" />

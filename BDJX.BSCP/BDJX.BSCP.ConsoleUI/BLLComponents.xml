@@ -2,5 +2,33 @@
   <components>
     <component id="2003" type="BDJX.BSCP.BLL.ZqBenHangShiShiZhiFu">
     </component>
+    <component id="3001" type="BDJX.BSCP.BLL.DaikuanDuizhangXinxiFafang">
+    </component>
+    <component id="2008" type="BDJX.BSCP.BLL.DaiKuangDanBiKouKuang">
+    </component>
+    <component id="2005" type="BDJX.BSCP.BLL.DaiKuangFaFan">
+    </component>
+    <component id="2006" type="BDJX.BSCP.BLL.DaiKuanPiLiangShouHuiFaQi">
+    </component>
+    <component id="2010" type="BDJX.BSCP.BLL.DingshiPiliangzhifu">
+    </component>
+    <component id="5000" type="BDJX.BSCP.BLL.KaYuEChaXun">
+    </component>
+    <component id="2002" type="BDJX.BSCP.BLL.ShouKuangZhangHuJianYan">
+    </component>
+    <component id="3009" type="BDJX.BSCP.BLL.WtDaikuanjiesuanRizhongduizhang">
+    </component>
+    <component id="3018" type="BDJX.BSCP.BLL.WtWangyinzhuangzhangDuizhang">
+    </component>
+    <component id="3008" type="BDJX.BSCP.BLL.WtZhikouRizhongduizhan">
+    </component>
+    <component id="3007" type="BDJX.BSCP.BLL.WtzqShishijiaoyiRizhongduizhang">
+    </component>
+    <component id="2000" type="BDJX.BSCP.BLL.XiaoezhifuDaikoufaqi">
+    </component>
+    <component id="3000" type="BDJX.BSCP.BLL.YinHangJiZhangRiZhongDuiZhang">
+    </component>
+    <component id="2013" type="BDJX.BSCP.BLL.ZqKuaHangShiShiZhiFu">
+    </component>
   </components>
 

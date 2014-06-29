@@ -67,7 +67,7 @@ namespace BDJX.BSCP.BLL
             }
             catch (Exception ex)
             {
-                LogHelper.WriteLogException("贷款发放", ex);
+                LogHelper.WriteLogException("贷款发放业务失败", ex);
                 throw;
             }
         }

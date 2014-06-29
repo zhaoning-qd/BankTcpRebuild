@@ -40,12 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaikuanDuizhangXinxiFafang.cs" />
     <Compile Include="DaiKuangDanBiKouKuang.cs" />
     <Compile Include="DaiKuangFaFan.cs" />
     <Compile Include="DaiKuanPiLiangShouHuiFaQi.cs" />
+    <Compile Include="DingshiPiliangzhifu.cs" />
     <Compile Include="KaYuEChaXun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShouKuangZhangHuJianYan.cs" />
+    <Compile Include="WtDaikuanjiesuanRizhongduizhang.cs" />
+    <Compile Include="WtWangyinzhuangzhangDuizhang.cs" />
+    <Compile Include="WtZhikouRizhongduizhan.cs" />
+    <Compile Include="WtzqShishijiaoyiRizhongduizhang.cs" />
+    <Compile Include="XiaoezhifuDaikoufaqi.cs" />
     <Compile Include="YinHangJiZhangRiZhongDuiZhang.cs" />
     <Compile Include="ZqBenHangShiShiZhiFu.cs" />
     <Compile Include="ZqKuaHangShiShiZhiFu.cs" />
