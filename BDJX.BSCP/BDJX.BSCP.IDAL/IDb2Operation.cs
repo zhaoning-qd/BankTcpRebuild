@@ -48,5 +48,25 @@ namespace BDJX.BSCP.IDAL
         /// <param name="lineArray"></param>
         /// <returns></returns>
         int UpateZbfhzAndZbmxz(ZbmxzModel zbmxz, ZbfhzModel zbfhz);
+
+        /// <summary>
+        /// 更新登记日切日期
+        /// </summary>
+        void UpdateDjrq();
+        
+
+        /// <summary>
+        /// 获取登记日切日期
+        /// </summary>
+        /// <returns></returns>
+        string GetDjrqrq();
+
+        /// <summary>
+        /// 根据日切日期查询zbmxz结果集
+        /// </summary>
+        /// <param name="rqrq">日切日期</param>
+        /// <returns></returns>
+        List<ZbmxzModel> GetZbmxzByRqrq(string rqrq);
+        
     }
 }

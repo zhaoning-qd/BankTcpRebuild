@@ -242,6 +242,7 @@ namespace BDJX.BSCP.BLL
                 zbmxz.Dfzh = lineArray[2];
                 zbmxz.Dfhm = lineArray[3];
                 zbmxz.Zxjsh = lineArray[1];
+                zbmxz.Rqrq = db2Operation.GetDjrqrq();
 
                 zbfhz.Yhzh = zbmxz.Zh;
                 zbfhz.Bs = zbmxz.Bc;

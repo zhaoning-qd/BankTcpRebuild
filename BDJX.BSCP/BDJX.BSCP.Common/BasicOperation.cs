@@ -214,16 +214,190 @@ namespace BDJX.BSCP.Common
         }
 
         /// <summary>
-        /// 获取日切日期
+        /// 根据整数返回交易的返回值--4位代码，在线业务类
         /// </summary>
-        /// <returns></returns>
-        public static string GetRiQieDate()
+        /// <param name="i"></param>
+        /// <returns>交易返回值</returns>
+        public static string GetOnlineTranscationReturnValue(int i)
         {
-            string s = string.Empty;
-            //获取系统当前日期
+            string rtn = string.Empty;
+            switch(i)
+            {
+                case 1://成功
+                    rtn = "0000";
+                    break;
+                case 2://其他错误
+                    rtn = "0001";
+                    break;
+                case 3://流水号重复
+                    rtn = "0004";
+                    break;
+                case 4: //系统繁忙
+                    rtn = "0005";
+                    break;
+                case 5: //密码错误
+                    rtn = "0006";
+                    break;
+                case 6: //金额不足
+                    rtn = "0007";
+                    break;
+                case 7: //转账金额超限
+                    rtn = "0008";
+                    break;
+                case 8: //查无该卡号
+                    rtn = "0009";
+                    break;
+                case 9: //卡号无效
+                    rtn = "0010";
+                    break;
+                case 10: //需要冲正的流水号不存在
+                    rtn = "0011";
+                    break;
+                case 11: //已签约
+                    rtn = "0012";
+                    break;
+                case 12: //身份证和姓名与中心不符
+                    rtn = "0013";
+                    break;
+                case 13: //批量未完成，请稍候取结果
+                    rtn = "0014";
+                    break;
+                case 14: //身份证号不存在--新增
+                    rtn = "0015";
+                    break;
+                case 15: //身份证号和银行卡号不符（删除）
+                    rtn = "0016";
+                    break;
+                case 16: //账号与姓名不符
+                    rtn = "0017";
+                    break;
+                case 17: //批量代发或代扣文件不存在
+                    rtn = "0031";
+                    break;
+                case 18: //代扣或代发文件汇总与明细不符
+                    rtn = "0032";
+                    break;
+                case 19: //代扣或代发请求已接收，不能重发请求
+                    rtn = "0033";
+                    break;
+                case 20: //银行代发呀代扣工作尚未完成，请稍后取结果
+                    rtn = "0034";
+                    break;
+                case 21: //查不到数据（对账）
+                    rtn = "0035";
+                    break;
+                case 22: //没有代发或代扣请求，不能取结果
+                    rtn = "0036";
+                    break;
+                case 23: //代发或代扣文本格式不正确
+                    rtn = "0038";
+                    break;
+                case 24: //银行系统故障
+                    rtn = "0039";
+                    break;
+                case 25: //原支付交易已冲正
+                    rtn = "0042";
+                    break;
+                case 26: //银行与中心户名不一致
+                    rtn = "0043";
+                    break;
+                case 27: //银行主机交易未成功
+                    rtn = "0045";
+                    break;
+                case 28: //银行返回通信包正确，但内容不正确
+                    rtn = "0046";
+                    break;
+                case 29: //银行当天没有联名卡支付记录
+                    rtn = "0097";
+                    break;
+                case 30: //信息错误或是未签约
+                    rtn = "0098";
+                    break;
+                case 31: //没有明细结果
+                    rtn = "0099";
+                    break;
+                case 32: //通信包无法正确解析
+                    rtn = "2002";
+                    break;
+                case 33: //密码错误
+                    rtn = "2005";
+                    break;
+                case 34: //非本行签约用户
+                    rtn = "9999";
+                    break;
+                case 35: //文件不存在
+                    rtn = "1031";
+                    break;
+                case 36: //文件汇总与明细不符
+                    rtn = "1032";
+                    break;
+                case 37: //文件接收，不能重复请求
+                    rtn = "1033";
+                    break;
+                case 38: //中心系统故障
+                    rtn = "1039";
+                    break;
+                case 39: //身份证和合同号不符
+                    rtn = "1001";
+                    break;
+                case 40: //身份证和姓名不符
+                    rtn = "1002";
+                    break;
+                case 41: //合同号和姓名不符
+                    rtn = "1003";
+                    break;
+                case 42: //银行已接收日切标志
+                    rtn = "1004";
+                    break;
+                default:
+                    rtn = "0000";
+                    break;
+            }
+            return rtn;
+        }
 
-
-            return s;
+        /// <summary>
+        /// 批量明细文件类交易返回值
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns>交易返回值</returns>
+        public static string GetBacthTranscationReturnValue(int i)
+        {
+            string rtn = string.Empty;
+            switch(i)
+            {
+                case 1://成功
+                    rtn = "00";
+                    break;
+                case 2://账号不存在
+                    rtn = "01";
+                    break;
+                case 3://账户名不存在
+                    rtn = "02";
+                    break;
+                case 4://账户余额不足支付
+                    rtn = "03";
+                    break;
+                case 5://账户密码错误
+                    rtn = "10";
+                    break;
+                case 6://账户状态错误
+                    rtn = "11";
+                    break;
+                case 7://业务已撤销
+                    rtn = "20";
+                    break;
+                case 8://其他错误
+                    rtn = "90";
+                    break;
+                case 9://回执超时
+                    rtn = "0b";
+                    break;
+                default:
+                    rtn = "00";
+                    break;
+            }
+            return rtn;
         }
     }
 }

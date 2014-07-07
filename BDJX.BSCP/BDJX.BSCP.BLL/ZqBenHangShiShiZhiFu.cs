@@ -113,6 +113,7 @@ namespace BDJX.BSCP.BLL
                 zbmxz.Dfzh = model.Fkrzh;
                 zbmxz.Dfhm = model.Fkrmc;
                 zbmxz.Zxjsh = model.Fkrzh;
+                zbmxz.Rqrq = db2Operation.GetDjrqrq();
 
                 zbfhz.Yhzh = zbmxz.Zh;
                 zbfhz.Bs = zbmxz.Bc;

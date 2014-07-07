@@ -76,6 +76,11 @@ namespace BDJX.BSCP.Entities.BllModels
         public string Zxjsh { get; set; }
 
         /// <summary>
+        /// 日切日期
+        /// </summary>
+        public string Rqrq { get; set; }
+
+        /// <summary>
         /// 构造函数--初始化日期和时间
         /// </summary>
         public ZbmxzModel()
@@ -118,6 +123,8 @@ namespace BDJX.BSCP.Entities.BllModels
             s += this.Dfhm;
             s += "','";
             s += this.Zxjsh;
+            s += "','";
+            s += this.Rqrq;
             s += "')";
 
             return s;

@@ -119,6 +119,7 @@ namespace BDJX.BSCP.DAL
             return count;
         }
 
+        //*********************************************************************************
         /// <summary>
         /// 根据起始日期和结束日期查询zbmxz结果集
         /// </summary>
@@ -158,6 +159,54 @@ namespace BDJX.BSCP.DAL
             catch (Exception ex)
             {
                 LogHelper.WriteLogException("Execute sql command error in Db2Operation.GetZbmxzByJyrq()", ex);
+                throw;
+            }
+            finally
+            {
+                this.Close();
+            }
+
+            return list;
+        }
+
+        /// <summary>
+        /// 根据日切日期查询zbmxz结果集
+        /// </summary>
+        /// <param name="rqrq">日切日期</param>
+        /// <returns></returns>
+        public List<ZbmxzModel> GetZbmxzByRqrq(string rqrq)
+        {
+            List<ZbmxzModel> list = new List<ZbmxzModel>();
+            ZbmxzModel zbmxz;
+            string cmdString = "select * from zbmxz where djrq >= '" + rqrq + "'";
+            this.Open();
+            try
+            {
+                db2Cmd = new DB2Command(cmdString, this.db2Conn);
+                DB2DataReader dr = db2Cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    zbmxz = new ZbmxzModel();
+                    zbmxz.Bc = dr.GetInt32(1).ToString();
+                    zbmxz.Zh = dr.GetString(2);
+                    zbmxz.Jyrq = dr.GetDate(3).ToShortDateString();
+                    zbmxz.Jysj = dr.GetDateTime(4).ToLongTimeString();
+                    zbmxz.Fse = dr.GetDecimal(5).ToString();
+                    zbmxz.Ye = dr.GetDecimal(6).ToString();
+                    zbmxz.Yhls = dr.GetString(7);
+                    zbmxz.Pjhm = dr.GetString(8);
+                    zbmxz.Jdbz = dr.GetString(9);
+                    zbmxz.Ywlx = dr.GetString(10);
+                    zbmxz.Dfzh = dr.GetString(11);
+                    zbmxz.Dfhm = dr.GetString(12);
+                    zbmxz.Zxjsh = dr.GetString(13);
+                    list.Add(zbmxz);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLogException("Execute sql command error in Db2Operation.GetZbmxzByRqrq()", ex);
                 throw;
             }
             finally
@@ -224,6 +273,48 @@ namespace BDJX.BSCP.DAL
             }
 
             return 0;
+        }
+
+        /// <summary>
+        /// 更新登记日切日期
+        /// </summary>
+        public void UpdateDjrq()
+        {
+            string currDate = DateTime.Now.ToShortDateString();
+            string cmdString = "update djrqb set djrqrq = '" + currDate + "'";
+            this.ExecuteDB2Update(cmdString);
+        }
+
+        /// <summary>
+        /// 获取登记日切日期
+        /// </summary>
+        /// <returns></returns>
+        public string GetDjrqrq()
+        {
+            string djrq = string.Empty;
+            string cmdString = "select * from djrqb";
+            this.Open();
+            try
+            {
+                db2Cmd = new DB2Command(cmdString, this.db2Conn);
+                DB2DataReader dr = db2Cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    djrq = dr.GetString(7);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLogException("Execute sql command error in Db2Operation.GetDjrqrq()", ex);
+                throw;
+            }
+            finally
+            {
+                this.Close();
+            }
+
+            return djrq;
         }
 
         
