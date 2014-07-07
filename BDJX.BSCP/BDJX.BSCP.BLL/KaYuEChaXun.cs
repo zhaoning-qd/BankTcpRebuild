@@ -13,7 +13,7 @@ namespace BDJX.BSCP.BLL
     /// <summary>
     /// 卡余额查询 业务处理类
     /// </summary>
-    public class KaYuEChaXun : IKaYuEChaXun
+    public class KayuEChaxun : IKaYuEChaXun
     {
         /// <summary>
         /// 请求报文实体
@@ -48,7 +48,7 @@ namespace BDJX.BSCP.BLL
         /// <summary>
         /// 构造函数
         /// </summary>
-        public KaYuEChaXun()
+        public KayuEChaxun()
         {
             model = new KyecxModel();
             modelMsg = new KyecxMsgModel();

@@ -212,5 +212,18 @@ namespace BDJX.BSCP.Common
                                       "十五","十六","十七","十八","十九","二十" };
             return nameHead + nameDetail[i];
         }
+
+        /// <summary>
+        /// 获取日切日期
+        /// </summary>
+        /// <returns></returns>
+        public static string GetRiQieDate()
+        {
+            string s = string.Empty;
+            //获取系统当前日期
+
+
+            return s;
+        }
     }
 }

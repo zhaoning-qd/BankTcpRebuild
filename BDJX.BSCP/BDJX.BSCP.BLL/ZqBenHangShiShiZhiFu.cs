@@ -13,7 +13,7 @@ namespace BDJX.BSCP.BLL
     /// <summary>
     /// 支取--本行实时支付
     /// </summary>
-    public class ZqBenHangShiShiZhiFu : IZqBenHangShiShiZhiFu
+    public class ZqBenhangShishizhifu : IZqBenHangShiShiZhiFu
     {
         /// <summary>
         /// 请求报文实体
@@ -53,7 +53,7 @@ namespace BDJX.BSCP.BLL
         /// <summary>
         /// 构造函数
         /// </summary>
-        public ZqBenHangShiShiZhiFu()
+        public ZqBenhangShishizhifu()
         {
             model = new ZqBhsszfModel();
             bhsszfMsg = new ZqBhsszfMsgModel();

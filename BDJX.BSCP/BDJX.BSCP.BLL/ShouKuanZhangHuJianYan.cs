@@ -13,7 +13,7 @@ namespace BDJX.BSCP.BLL
     /// <summary>
     /// 收款账户检验业务处理类
     /// </summary>
-    public class ShouKuangZhangHuJianYan : IShouKuangZhangHuJianYan
+    public class ShouKuanZhangHuJianYan : IShouKuangZhangHuJianYan
     {
         /// <summary>
         /// 请求报文实体
@@ -48,7 +48,7 @@ namespace BDJX.BSCP.BLL
         /// <summary>
         /// 构造函数，初始化
         /// </summary>
-        public ShouKuangZhangHuJianYan()
+        public ShouKuanZhangHuJianYan()
         {
             model = new SkzhjyModel();
             modelMsg = new SkzhjyMsgModel();

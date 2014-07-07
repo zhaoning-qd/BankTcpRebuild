@@ -13,7 +13,7 @@ namespace BDJX.BSCP.BLL
     /// <summary>
     /// 网厅缴存--直扣交易日终对账
     /// </summary>
-    public class WtZhikouRizhongduizhan :IWtZhikouRizhongduizhang
+    public class WtZhikouRizhongduizhang :IWtZhikouRizhongduizhang
     {
         /// <summary>
         /// 请求报文实体
@@ -53,7 +53,7 @@ namespace BDJX.BSCP.BLL
         /// <summary>
         /// 构造函数
         /// </summary>
-        public WtZhikouRizhongduizhan()
+        public WtZhikouRizhongduizhang()
         {
             model = new WtzkjyrzdzModel();
             modelMsg = new WtzkjyrzdzMsgModel();

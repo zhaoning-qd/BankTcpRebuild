@@ -11,19 +11,19 @@ using BDJX.BSCP.IDAL;
 namespace BDJX.BSCP.BLL
 {
     /// <summary>
-    /// 贷款单笔扣款业务处理类
+    /// 贷款发放业务处理类
     /// </summary>
-    public class DaiKuangDanBiKouKuang :IDaiKuangDanBiKouKuang
+    public class DaiKuanFaFang :IDaiKuangFaFang
     {
         /// <summary>
         /// 请求报文实体
         /// </summary>
-        DkdbkkModel model;
+        DkffModel model;
 
         /// <summary>
         /// 响应报文实体
         /// </summary>
-        DkdbkkMsgModel modelMsg;
+        DkffMsgModel modelMsg;
 
         /// <summary>
         /// 用于实现IBllManagment接口中的ResponseMsg属性
@@ -46,18 +46,12 @@ namespace BDJX.BSCP.BLL
         }
 
         /// <summary>
-        /// 数据库操作类
-        /// </summary>
-        IDb2Operation db2Operation;
-
-        /// <summary>
         /// 构造函数，初始化
         /// </summary>
-        public DaiKuangDanBiKouKuang()
+        public DaiKuanFaFang()
         {
-            model = new DkdbkkModel();
-            modelMsg = new DkdbkkMsgModel();
-            db2Operation = BdjxFactory.CreateInstance<IDb2Operation>("BDJX.BSCP.DAL.dll", "BDJX.BSCP.DAL.Db2Operation");
+            model = new DkffModel();
+            modelMsg = new DkffMsgModel();
         }
 
         /// <summary>
@@ -66,14 +60,14 @@ namespace BDJX.BSCP.BLL
         public void DisposeOfBusiness(byte[] recvBytes, BllEntryPoint bllEntryPoint)
         {
             try
-            {               
+            {
+                YinHangZhiFu();
                 GenerageResponseMsg(recvBytes);
-                UpdateZbInfo(BasicOperation.GetExecutePermission());
-                LogHelper.WriteLogInfo("贷款单笔扣款", "成功完成业务操作");
+                LogHelper.WriteLogInfo("贷款发放", "成功完成业务操作");
             }
             catch (Exception ex)
             {
-                LogHelper.WriteLogException("贷款单笔扣款业务失败", ex);
+                LogHelper.WriteLogException("贷款发放业务失败", ex);
                 throw;
             }
         }
@@ -93,33 +87,12 @@ namespace BDJX.BSCP.BLL
         }
 
         /// <summary>
-        /// 更新账表分户账和账表明细账
+        /// 模拟银行支付操作
         /// </summary>
-        private void UpdateZbInfo(bool execPermission)
+        private void YinHangZhiFu()
         {
-            if (execPermission)
-            {
-                ZbfhzModel zbfhz = new ZbfhzModel();
-                ZbmxzModel zbmxz = new ZbmxzModel();
-
-                zbmxz.Zh = model.Skrzh;
-                int iBs = db2Operation.GetCountByZh(zbmxz);
-                zbmxz.Bc = (iBs + 1).ToString();
-                zbmxz.Fse = model.Skje;
-                zbmxz.Yhls = Encoding.Default.GetString(modelMsg.Yhls);
-                zbmxz.Pjhm = Encoding.Default.GetString(modelMsg.Yhls);
-                zbmxz.Jdbz = "2";
-                zbmxz.Ywlx = "1";
-                zbmxz.Dfzh = model.Skrzh;
-                zbmxz.Dfhm = model.Skrmc;
-                zbmxz.Zxjsh = model.Skryhmc;
-
-                zbfhz.Yhzh = zbmxz.Zh;
-                zbfhz.Bs = zbmxz.Bc;
-                zbfhz.Hm = model.Skrmc;
-
-                db2Operation.UpateZbfhzAndZbmxz(zbmxz, zbfhz);
-            }
+            //银行在业务逻辑上的操作，本程序中不实现
         }
+
     }
 }
