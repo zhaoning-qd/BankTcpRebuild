@@ -399,5 +399,148 @@ namespace BDJX.BSCP.Common
             }
             return rtn;
         }
+
+        /// <summary>
+        /// 获取返回值对应的返回信息
+        /// </summary>
+        /// <param name="fhz"></param>
+        /// <returns></returns>
+        public static string GetFhxxByFhz(string fhz)
+        {
+            string rtn = string.Empty;
+            switch (fhz)
+            {
+                case "0000":
+                    rtn = "成功";
+                    break;
+                case "0001":
+                    rtn = "其他错误";
+                    break;
+                case "0004":
+                    rtn = "流水号重复";
+                    break;
+                case "0005":
+                    rtn = "系统繁忙";
+                    break;
+                case "0006":
+                    rtn = "密码错误";
+                    break;
+                case "0007":
+                    rtn = "金额不足";
+                    break;
+                case "0008":
+                    rtn = "转账金额超限";
+                    break;
+                case "0009":
+                    rtn = "查无该卡号";
+                    break;
+                case "0010":
+                    rtn = "卡号无效";
+                    break;
+                case "0011":
+                    rtn = "需要冲正的流水号不存在";
+                    break;
+                case "0012":
+                    rtn = "已签约";
+                    break;
+                case "0013":
+                    rtn = "身份证和姓名与中心不符";
+                    break;
+                case "0014":
+                    rtn = "批量未完成，请稍候取结果";
+                    break;
+                case "0015":
+                    rtn = "身份证号不存在--新增";
+                    break;
+                case "0016":
+                    rtn = "身份证号和银行卡号不符（删除）";
+                    break;
+                case "0017":
+                    rtn = "账号与姓名不符";
+                    break;
+                case "0031":
+                    rtn = "批量代发或代扣文件不存在";
+                    break;
+                case "0032":
+                    rtn = "代扣或代发文件汇总与明细不符";
+                    break;
+                case "0033":
+                    rtn = "代扣或代发请求已接收，不能重发请求";
+                    break;
+                case "0034":
+                    rtn = "银行代发呀代扣工作尚未完成，请稍后取结果";
+                    break;
+                case "0035":
+                    rtn = "查不到数据（对账）";
+                    break;
+                case "0036":
+                    rtn = "没有代发或代扣请求，不能取结果";
+                    break;
+                case "0038":
+                    rtn = "代发或代扣文本格式不正确";
+                    break;
+                case "0039":
+                    rtn = "银行系统故障";
+                    break;
+                case "0042":
+                    rtn = "原支付交易已冲正";
+                    break;
+                case "0043":
+                    rtn = "银行与中心户名不一致";
+                    break;
+                case "0045":
+                    rtn = "银行主机交易未成功";
+                    break;
+                case "0046":
+                    rtn = "银行返回通信包正确，但内容不正确";
+                    break;
+                case "0097":
+                    rtn = "银行当天没有联名卡支付记录";
+                    break;
+                case "0098":
+                    rtn = "信息错误或是未签约";
+                    break;
+                case "0099":
+                    rtn = "没有明细结果";
+                    break;
+                case "2002":
+                    rtn = "通信包无法正确解析";
+                    break;
+                case "2005":
+                    rtn = "密码错误";
+                    break;
+                case "9999":
+                    rtn = "非本行签约用户";
+                    break;
+                case "1031":
+                    rtn = "文件不存在";
+                    break;
+                case "1032":
+                    rtn = "文件汇总与明细不符";
+                    break;
+                case "1033":
+                    rtn = "文件接收，不能重复请求";
+                    break;
+                case "1039":
+                    rtn = "中心系统故障";
+                    break;
+                case "1001":
+                    rtn = "身份证和合同号不符";
+                    break;
+                case "1002":
+                    rtn = "身份证和姓名不符";
+                    break;
+                case "1003":
+                    rtn = "合同号和姓名不符";
+                    break;
+                case "1004":
+                    rtn = "银行已接收日切标志";
+                    break;
+                default:
+                    rtn = "未查找到匹配的返回值信息";
+                    break;
+            }
+            return rtn;
+        }            
     }
 }

@@ -67,9 +67,13 @@ namespace BDJX.BSCP.Entities.BllModels
         /// <param name="model">请求报文信息实体</param>
         public void SetValue(KyecxModel model)
         {
+            ResRtnValueModel modelRtn = new ResRtnValueModel();
+            modelRtn.RtnCodeArray = new int[] { 1, 2, 4,16, 24, 27, 28, 32 };//返回值可能情况
+            string fhz = modelRtn.GetRtnValueOnline();
+
             BasicOperation.SetByteArray(this.Length, "0060");
             BasicOperation.SetByteArray(this.Jym, model.Jym);
-            BasicOperation.SetByteArray(this.Fhz, "0000");
+            BasicOperation.SetByteArray(this.Fhz, fhz);
             BasicOperation.SetByteArray(this.Xm, model.Xm);
             BasicOperation.SetByteArray(this.Kzh, model.Kzh);
             BasicOperation.SetByteArray(this.Bz, "1");

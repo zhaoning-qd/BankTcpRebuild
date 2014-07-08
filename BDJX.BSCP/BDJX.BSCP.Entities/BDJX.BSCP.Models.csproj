@@ -53,6 +53,7 @@
     <Compile Include="BllModels\DsplzfMsgModel.cs" />
     <Compile Include="BllModels\KyecxModel.cs" />
     <Compile Include="BllModels\KyecxMsgModel.cs" />
+    <Compile Include="BllModels\ResRtnValueModel.cs" />
     <Compile Include="BllModels\SkzhjyModel.cs" />
     <Compile Include="BllModels\SkzhjyMsgModel.cs" />
     <Compile Include="BllModels\WtdkjsrzdzModel.cs" />
